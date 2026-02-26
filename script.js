@@ -145,7 +145,7 @@
         message
       );
 
-      window.location.href = "mailto:ayoub@example.com?subject=" + subject + "&body=" + body;
+      window.location.href = "mailto:aitomghar26@gmail.com?subject=" + subject + "&body=" + body;
     });
   }
 

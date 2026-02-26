@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfolio of Ayoub Ait Oumghar, Mobile and Front-End Developer." />
-  <title>Ayoub Ait Oumghar | Portfolio</title>
+  <meta name="description" content="Ayoub Ait Oumghar - Mobile and Front-End Developer Portfolio." />
+  <title>Ayoub Ait Oumghar | Developer Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -15,7 +15,10 @@
 
   <header class="site-header" id="top">
     <nav class="navbar container" aria-label="Main navigation">
-      <a class="brand" href="#top" aria-label="Homepage">Ayoub Ait Oumghar</a>
+      <a class="brand" href="#top" aria-label="Homepage">
+        <span class="brand-mark">AA</span>
+        <span>Ayoub Ait Oumghar</span>
+      </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
         <span></span>
         <span></span>
@@ -26,58 +29,74 @@
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
-        <a class="btn btn-small" href="#" aria-label="Download CV placeholder link">Download CV</a>
+        <a class="btn btn-small" href="assets/cv/AYOUB_AIT_OUMGHAR_CV.pdf" download>Download CV</a>
       </div>
     </nav>
   </header>
 
   <main id="main-content">
     <section class="hero container reveal" aria-labelledby="hero-title">
-      <p class="eyebrow">Portfolio</p>
-      <h1 id="hero-title">Ayoub Ait Oumghar</h1>
-      <p class="hero-role">Mobile &amp; Front-End Developer</p>
-      <p class="hero-stack">Flutter &bull; Firebase &bull; React</p>
-      <p class="hero-text">I build performant and user-focused digital products, from mobile apps to responsive web interfaces.</p>
-      <div class="hero-actions">
-        <a class="btn" href="#projects">View Projects</a>
-        <a class="btn btn-outline" href="#contact">Contact</a>
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow">Mobile & Front-End Developer</p>
+          <h1 id="hero-title">Ayoub Ait Oumghar</h1>
+          <p class="hero-stack">Flutter &bull; Firebase &bull; React</p>
+          <p class="hero-text">I design and develop modern digital products with clean architecture, smooth UX, and reliable performance.</p>
+
+          <div class="hero-actions">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn-outline" href="#contact">Contact</a>
+          </div>
+
+          <ul class="social-links" aria-label="Social links">
+            <li>
+              <a href="https://github.com/AYB333" target="_blank" rel="noopener noreferrer">
+                <img src="assets/icons/github.svg" alt="" />
+                <span>GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/ayoub-ait-oumghar" target="_blank" rel="noopener noreferrer">
+                <img src="assets/icons/linkedin.svg" alt="" />
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:aitomghar26@gmail.com">
+                <img src="assets/icons/email.svg" alt="" />
+                <span>Email</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="hero-visual card reveal" aria-label="Profile card">
+          <div class="profile-wrap">
+            <img src="assets/images/ayoub-profile.jpg" alt="Portrait of Ayoub Ait Oumghar" />
+          </div>
+          <div class="hero-meta">
+            <p><strong>Based in:</strong> Morocco</p>
+            <p><strong>Focus:</strong> Mobile apps and modern web interfaces</p>
+          </div>
+        </aside>
       </div>
-      <ul class="social-links" aria-label="Social links">
-        <li>
-          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
-            <img src="assets/icons/github.svg" alt="" />
-            <span>GitHub</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
-            <img src="assets/icons/linkedin.svg" alt="" />
-            <span>LinkedIn</span>
-          </a>
-        </li>
-        <li>
-          <a href="mailto:ayoub@example.com">
-            <img src="assets/icons/email.svg" alt="" />
-            <span>Email</span>
-          </a>
-        </li>
-      </ul>
     </section>
 
     <section class="section container reveal" id="about" aria-labelledby="about-title">
-      <h2 id="about-title">About</h2>
-      <div class="card">
+      <div class="section-head">
+        <h2 id="about-title">About</h2>
+      </div>
+      <article class="card">
         <p>
-          I am a developer focused on building reliable products with clear architecture and thoughtful user experience.
-          My current focus is mobile development with Flutter and full-stack features powered by Firebase.
+          I am a software developer with a strong focus on mobile and front-end engineering.
+          I enjoy turning ideas into polished products with maintainable code and clear user flows.
         </p>
         <ul class="feature-list">
-          <li>Design and build cross-platform mobile apps with clean UI patterns.</li>
-          <li>Integrate REST APIs, Firebase services, and scalable data flows.</li>
-          <li>Ship responsive front-end interfaces with strong accessibility basics.</li>
+          <li>Build cross-platform mobile apps with Flutter and Firebase services.</li>
+          <li>Create responsive web interfaces with React and modern CSS architecture.</li>
+          <li>Integrate REST APIs and optimize performance for real-world usage.</li>
         </ul>
-        <p class="internship-note">Looking for a 12-week internship.</p>
-      </div>
+      </article>
     </section>
 
     <section class="section container reveal" id="projects" aria-labelledby="projects-title">
@@ -86,23 +105,26 @@
       </div>
       <div class="projects-grid">
         <article class="project-card project-featured reveal">
-          <img src="assets/projects/covoiturage-placeholder.svg" alt="Covoiturage app preview placeholder" />
+          <div class="featured-media">
+            <img src="assets/projects/covoiturage-cover.png" alt="Covoiturage des etudiants project cover" />
+            <img class="featured-icon" src="assets/projects/covoiturage-icon.png" alt="Covoiturage app icon" />
+          </div>
           <div class="project-content">
             <p class="project-tag">Featured</p>
             <h3>Covoiturage App</h3>
-            <p>Mobile carpooling app with authentication, ride posts, and real-time user data syncing.</p>
+            <p>Student carpooling platform with account management, route publishing, and geolocation-ready architecture.</p>
             <ul class="badge-list" aria-label="Technologies used">
               <li>Flutter</li>
               <li>Firebase</li>
               <li>Cloud Firestore</li>
             </ul>
             <ul class="feature-list">
-              <li>User signup/login and profile management.</li>
-              <li>Create and browse ride offers with filtering.</li>
-              <li>Firestore-backed live data updates.</li>
+              <li>Authentication and role-based user flow.</li>
+              <li>Ride posting and search experience.</li>
+              <li>Scalable Firebase-backed data structure.</li>
             </ul>
             <div class="project-actions">
-              <a class="btn btn-small" href="https://github.com/your-username/covoiturage-app" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a class="btn btn-small" href="https://github.com/AYB333" target="_blank" rel="noopener noreferrer">GitHub</a>
               <button class="btn btn-outline btn-small" type="button" data-modal-target="modal-covoiturage">Case Study</button>
               <a class="btn btn-outline btn-small" href="#" aria-disabled="true">Live Demo</a>
             </div>
@@ -110,47 +132,47 @@
         </article>
 
         <article class="project-card reveal">
-          <img src="assets/projects/react-app-placeholder.svg" alt="React web app placeholder" />
+          <img src="assets/projects/react-app-placeholder.svg" alt="React web app preview" />
           <div class="project-content">
             <h3>React Web App</h3>
-            <p>Web dashboard consuming third-party APIs with reusable components and responsive layouts.</p>
+            <p>Data-driven interface with API integration, reusable components, and responsive layout behavior.</p>
             <ul class="badge-list" aria-label="Technologies used">
               <li>React</li>
               <li>REST API</li>
-              <li>CSS</li>
+              <li>Responsive CSS</li>
             </ul>
             <ul class="feature-list">
-              <li>API integration with loading and error states.</li>
-              <li>Mobile-first responsive interface.</li>
-              <li>Reusable card and filter components.</li>
+              <li>Async API states and graceful error handling.</li>
+              <li>Responsive dashboard layout on mobile and desktop.</li>
+              <li>Reusable card and filtering components.</li>
             </ul>
             <div class="project-actions">
-              <a class="btn btn-small" href="https://github.com/your-username/react-web-app" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a class="btn btn-small" href="https://github.com/AYB333" target="_blank" rel="noopener noreferrer">GitHub</a>
               <button class="btn btn-outline btn-small" type="button" data-modal-target="modal-react">Case Study</button>
-              <a class="btn btn-outline btn-small" href="https://example.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a class="btn btn-outline btn-small" href="#" aria-disabled="true">Live Demo</a>
             </div>
           </div>
         </article>
 
         <article class="project-card reveal">
-          <img src="assets/projects/weather-app-placeholder.svg" alt="Weather app placeholder" />
+          <img src="assets/projects/weather-app-placeholder.svg" alt="Weather app preview" />
           <div class="project-content">
             <h3>Weather App</h3>
-            <p>Forecast interface powered by a public weather API with dynamic backgrounds and status indicators.</p>
+            <p>Lightweight forecast app built on public APIs with dynamic visuals and clean information hierarchy.</p>
             <ul class="badge-list" aria-label="Technologies used">
               <li>JavaScript</li>
               <li>Public API</li>
-              <li>Responsive UI</li>
+              <li>Dynamic UI</li>
             </ul>
             <ul class="feature-list">
-              <li>Search by city with current and forecast data.</li>
-              <li>Dynamic UI updates by weather condition.</li>
-              <li>Accessible form controls and keyboard support.</li>
+              <li>City search with current and forecast weather.</li>
+              <li>Condition-based visual rendering.</li>
+              <li>Accessible forms and keyboard navigation.</li>
             </ul>
             <div class="project-actions">
-              <a class="btn btn-small" href="https://github.com/your-username/weather-app" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a class="btn btn-small" href="https://github.com/AYB333" target="_blank" rel="noopener noreferrer">GitHub</a>
               <button class="btn btn-outline btn-small" type="button" data-modal-target="modal-weather">Case Study</button>
-              <a class="btn btn-outline btn-small" href="https://example.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a class="btn btn-outline btn-small" href="#" aria-disabled="true">Live Demo</a>
             </div>
           </div>
         </article>
@@ -158,7 +180,9 @@
     </section>
 
     <section class="section container reveal" id="skills" aria-labelledby="skills-title">
-      <h2 id="skills-title">Skills</h2>
+      <div class="section-head">
+        <h2 id="skills-title">Skills</h2>
+      </div>
       <div class="skills-grid">
         <article class="card skill-group">
           <h3>Mobile</h3>
@@ -167,6 +191,7 @@
             <li>Dart</li>
             <li>Firebase Auth</li>
             <li>Cloud Firestore</li>
+            <li>REST APIs</li>
           </ul>
         </article>
         <article class="card skill-group">
@@ -176,29 +201,33 @@
             <li>CSS3</li>
             <li>JavaScript (ES6+)</li>
             <li>React</li>
+            <li>Responsive Design</li>
           </ul>
         </article>
         <article class="card skill-group">
           <h3>Tools</h3>
           <ul class="skill-list">
-            <li>Git &amp; GitHub</li>
+            <li>Git & GitHub</li>
             <li>Figma</li>
             <li>Postman</li>
             <li>VS Code</li>
+            <li>Firebase Console</li>
           </ul>
         </article>
       </div>
     </section>
 
     <section class="section container reveal" id="contact" aria-labelledby="contact-title">
-      <h2 id="contact-title">Contact</h2>
+      <div class="section-head">
+        <h2 id="contact-title">Contact</h2>
+      </div>
       <div class="contact-grid">
         <article class="card contact-card">
-          <h3>Let us connect</h3>
+          <h3>Let us build something great</h3>
           <ul class="contact-list">
-            <li><strong>Email:</strong> <a href="mailto:ayoub@example.com">ayoub@example.com</a></li>
-            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">linkedin.com/in/your-linkedin</a></li>
-            <li><strong>GitHub:</strong> <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">github.com/your-username</a></li>
+            <li><strong>Email:</strong> <a href="mailto:aitomghar26@gmail.com">aitomghar26@gmail.com</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ayoub-ait-oumghar" target="_blank" rel="noopener noreferrer">linkedin.com/in/ayoub-ait-oumghar</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/AYB333" target="_blank" rel="noopener noreferrer">github.com/AYB333</a></li>
           </ul>
         </article>
 
@@ -228,9 +257,9 @@
     <div class="container footer-wrap">
       <p>&copy; <span id="current-year">2026</span> Ayoub Ait Oumghar. All rights reserved.</p>
       <ul class="footer-social" aria-label="Footer social links">
-        <li><a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-        <li><a href="mailto:ayoub@example.com">Email</a></li>
+        <li><a href="https://github.com/AYB333" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/ayoub-ait-oumghar" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="mailto:aitomghar26@gmail.com">Email</a></li>
       </ul>
     </div>
   </footer>
@@ -239,11 +268,11 @@
     <div class="modal-panel">
       <button class="modal-close" type="button" data-modal-close aria-label="Close case study">&times;</button>
       <h3 id="modal-covoiturage-title">Covoiturage App - Case Study</h3>
-      <p><strong>Problem:</strong> Students and commuters needed a simpler way to find rides with trusted profiles.</p>
-      <p><strong>Solution:</strong> Built a mobile app to publish rides, discover offers, and manage reservations quickly.</p>
+      <p><strong>Problem:</strong> Students needed a practical and trusted way to share rides in Agadir.</p>
+      <p><strong>Solution:</strong> Built a dedicated mobile app for ride posting, discovery, and profile-driven trust.</p>
       <p><strong>Tech:</strong> Flutter, Firebase Authentication, Cloud Firestore.</p>
-      <p><strong>Challenges:</strong> Real-time synchronization, efficient Firestore queries, and state consistency across screens.</p>
-      <p><strong>What I learned:</strong> Designing scalable data models and maintaining smooth UX while handling async operations.</p>
+      <p><strong>Challenges:</strong> Real-time updates, query optimization, and robust state flow.</p>
+      <p><strong>What I learned:</strong> Data-model planning and production-ready UX in mobile apps.</p>
     </div>
   </div>
 
@@ -251,11 +280,11 @@
     <div class="modal-panel">
       <button class="modal-close" type="button" data-modal-close aria-label="Close case study">&times;</button>
       <h3 id="modal-react-title">React Web App - Case Study</h3>
-      <p><strong>Problem:</strong> Users needed a fast dashboard to read and compare API data clearly.</p>
-      <p><strong>Solution:</strong> Built reusable components with state-driven filtering and responsive cards.</p>
-      <p><strong>Tech:</strong> React, REST API, CSS modules.</p>
-      <p><strong>Challenges:</strong> Managing asynchronous states and keeping UI consistent across breakpoints.</p>
-      <p><strong>What I learned:</strong> Structuring front-end architecture for maintainability and better performance.</p>
+      <p><strong>Problem:</strong> Users needed a fast and clear way to interact with API data.</p>
+      <p><strong>Solution:</strong> Designed a modular dashboard with reusable UI blocks and filtering logic.</p>
+      <p><strong>Tech:</strong> React, REST APIs, modern CSS.</p>
+      <p><strong>Challenges:</strong> Async state management and consistency across breakpoints.</p>
+      <p><strong>What I learned:</strong> Component architecture and scalable front-end patterns.</p>
     </div>
   </div>
 
@@ -263,11 +292,11 @@
     <div class="modal-panel">
       <button class="modal-close" type="button" data-modal-close aria-label="Close case study">&times;</button>
       <h3 id="modal-weather-title">Weather App - Case Study</h3>
-      <p><strong>Problem:</strong> Most weather tools felt overloaded for quick daily checks.</p>
-      <p><strong>Solution:</strong> Built a lightweight forecast app with concise data and condition-based visuals.</p>
-      <p><strong>Tech:</strong> JavaScript, OpenWeather API, CSS animations.</p>
-      <p><strong>Challenges:</strong> Handling API failures gracefully and presenting data in a compact layout.</p>
-      <p><strong>What I learned:</strong> Building resilient API interfaces and improving data readability for users.</p>
+      <p><strong>Problem:</strong> Weather apps can feel overloaded for quick checks.</p>
+      <p><strong>Solution:</strong> Built a focused interface with concise forecast details and dynamic visuals.</p>
+      <p><strong>Tech:</strong> JavaScript, public weather API, responsive CSS.</p>
+      <p><strong>Challenges:</strong> API failure handling and clear data hierarchy.</p>
+      <p><strong>What I learned:</strong> UX clarity and resilient API integration.</p>
     </div>
   </div>
 
