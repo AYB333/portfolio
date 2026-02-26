@@ -1,0 +1,17 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="React app placeholder image">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10223f"/>
+      <stop offset="1" stop-color="#0a1528"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg2)"/>
+  <rect x="90" y="100" width="1020" height="480" rx="28" fill="#152743" stroke="#2e76d8" stroke-width="4"/>
+  <rect x="130" y="150" width="280" height="26" rx="13" fill="#8cc3ff"/>
+  <rect x="130" y="210" width="920" height="2" fill="#3f8cff" opacity="0.6"/>
+  <rect x="130" y="245" width="260" height="280" rx="18" fill="#1d3359"/>
+  <rect x="420" y="245" width="260" height="280" rx="18" fill="#1d3359"/>
+  <rect x="710" y="245" width="340" height="130" rx="18" fill="#1d3359"/>
+  <rect x="710" y="395" width="340" height="130" rx="18" fill="#1d3359"/>
+  <text x="90" y="635" fill="#cfe5ff" font-family="Segoe UI, sans-serif" font-size="42" font-weight="600">React Web App Placeholder</text>
+</svg>
